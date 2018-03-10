@@ -191,10 +191,6 @@ def get_metadata_from_data_dict(data_dict, num_buckets=10, max_num_unique_values
     return metadata
 
 
-def get_metadata_from_file(file_path, separator=',', num_buckets=10):
-    return get_metadata_from_data_dict(parse_file_to_data_dict(file_path, separator), num_buckets)
-
-
 def process_data_dict_by_metadata(data_dict, metadata):
     processed_data_dict = dict()
     for key in data_dict.keys():
