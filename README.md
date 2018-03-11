@@ -1,6 +1,8 @@
 # struct_attrib
 
-get meta info in a data.
+get meta attrib in a data.
+
+the code base on https://github.com/knowru.
 
 ## Usage
 
